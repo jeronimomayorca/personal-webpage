@@ -1,0 +1,17 @@
+#dark-gray {
+    color: #606470;
+}
+
+#light-gray {
+    color: #E8ECF1
+}
+
+#primary-blue {
+    color: #5C7AEA
+}
+
+
+blur-white-to-gray {
+    background-color: #FFFFFF;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(232, 236, 241, 1) 100%);
+}
