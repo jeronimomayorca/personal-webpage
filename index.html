@@ -1,41 +1,119 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bienvenido a mi web!</title>
-    <link rel="stylesheet" href="./index.html">
+
+    <title>MayorcaDev</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="images/personal logo.png" style="width: 200px" class="blur-white-to-gray">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse px-5" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Disabled</a>
-                    </li>
-                </ul>
+
+    <!--navbar-->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/personal logo.png" alt="" width="170px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse offset-md-7" id="navbarNav">
+                    <ul class="navbar-nav for-ul">
+                        <li class="nav-item for-li">
+                            <a class="nav-link font-300 for-a" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item for-li">
+                            <a class="nav-link font-300 for-a" href="#">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!--end navbar-->
+
+    <!--about me-->
+    <section id="about-me" class="dark-gray">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1 class="font-500 light-gray-text my-5">
+                            Hello, I'm Jeronimo
+                        </h1>
+                        <h3 class="font-300 light-gray-text my-5">
+                            Since I was young, I have had a strong curiosity about how things work. <br>I am very
+                            restless
+                            and always seek to understand the why behind everything. This has led me to self-educate and
+                            delve into the wonderful world of computers.
+                            <br><br>
+                            I have chosen to pursue a degree in Systems Engineering, a career that I have been
+                            passionate about since I was 14 years old, as it perfectly aligns with my personality and
+                            interests.
+                        </h3>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/fotomia.jpg" alt="profile-photo" width="100%" class="my-5">
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
+    </section>
+    <!--end about me-->
+
+    <!--education-->
+    <section id="education">
+        <div>
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/fotobootcamp.jpg" alt="" width="100%" class="hide-img">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="font-500 px-5 pt-5">Education</h1>
+                        <h3 class="font-300 p-5">
+                            I completed a <u>one-year</u> bootcamp at a local startup, <br>
+                            where I gained extensive knowledge in
+                            <b>Python
+                            </b><br>and other front-end tools such as <b>Angular CLI</b> and <b>Bootstrap</b>.
+                            Additionally, we were taught project management using <br> <b>Git</b> and <b>GitHub</b>, as
+                            well as learning about <u>design patterns</u> and <u>best coding practices</u>.
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/fotobootcamp.jpg" alt="" width="100%" class="show-img">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end education-->
+
+
+ <!--Since I was 10 I've been experiencing with computers.
+<br><br>I used to spend my weekends with my grandfather.
+<br><br>He taught me how to format a computer and which are its components, like the HDD,
+RAM memory,
+<br>motherboard, CD unit and how to connect it in the case
+<br><br>He shared with me a book about Notepad++ and I took a little view-->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
