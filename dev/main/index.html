@@ -9,6 +9,7 @@
     <title>MayorcaDev</title>
 
     <link rel="stylesheet" href="../../styles.css">
+    <link rel="shortcut icon" href="../../images/j logo.png" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +26,8 @@
     <section id="navbar">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-and" href="#"><img src="../../images/personal logo.png" alt="" width="170px"></a>
+                <a class="navbar-and" href="index.html"><img src="../../images/personal logo.png" alt=""
+                        width="170px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -82,34 +84,26 @@
         <div>
             <div class="container pt-5">
                 <div class="row justify-content-between">
-                    <div class="col-md-5 pt-5 mt-5">
-                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                                    aria-label="Slide 3"></button>
-                            </div>
+                    <div class="col-md-5 pt-5 mt-5 hide">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="3">
-                                    <img src="../../images/fotobootcamp.jpg" class="d-block w-100" alt="fotobootcamp1">
+                                <div class="carousel-item active">
+                                    <img src="../../images/fotobootcamp.jpg" class="d-block w-100" alt="...">
                                 </div>
-                                <div class="carousel-item" data-bs-interval="3">
-                                    <img src="../../images/fotobootcamp1.jpg" class="d-block w-100" alt="fotobootcamp2">
+                                <div class="carousel-item">
+                                    <img src="../../images/fotobootcamp1.jpg" class="d-block w-100" alt="...">
                                 </div>
-                                <div class="carousel-item" data-bs-interval="3">
-                                    <img src="../../images/fotobootcamp2.jpg" class="d-block w-100" alt="fotobootcamp2">
+                                <div class="carousel-item">
+                                    <img src="../../images/fotobootcamp2.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                                data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                                data-bs-slide="next">
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -191,37 +185,26 @@
                         Additionally, I explored courses led by experienced senior developers, which focused on design
                         patterns and software engineering.
                     </p>
-                    <div class="col-md-4 pb-4 show">
-                        <div id="carouselExampleDark" class="carousel carousel-dark slide">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
-                                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                                    aria-label="Slide 2"></button>
-                            </div>
+                    <div class="col pb-5 show">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="carousel-item active">
                                     <img src="../../images/fotobootcamp.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
-                                    </div>
                                 </div>
-                                <div class="carousel-item" data-bs-interval="2000">
+                                <div class="carousel-item">
                                     <img src="../../images/fotobootcamp1.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Second slide label</h5>
-                                        <p>Some representative placeholder content for the second slide.</p>
-                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../../images/fotobootcamp2.jpg" class="d-block w-100" alt="...">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                                data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                                data-bs-slide="next">
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -299,7 +282,12 @@
     </footer>
 
     <!--end footer-->
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
