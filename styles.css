@@ -3,7 +3,7 @@
 }
 
 .light-gray {
-    background-color: #E8ECF1
+    background-color: #DDE6ED
 }
 
 .primary-blue {
@@ -27,7 +27,7 @@
 }
 
 .light-gray-text {
-    color: #E8ECF1;
+    color: #DDE6ED;
 }
 
 
@@ -88,7 +88,7 @@
 
 
 @media (max-width: 768px) {
-    .hide-img {
+    .hide {
         display: none;
         position: fixed;
     }
@@ -96,7 +96,7 @@
 }
 
 @media (min-width: 769px) {
-    .show-img {
+    .show {
         display: none;
         position: fixed;
     }
