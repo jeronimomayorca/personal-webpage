@@ -33,7 +33,7 @@
     <body class="u-body u-xl-mode" data-lang="es">
       <header class="u-clearfix u-header u-header sticky-top" id="header">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-          <a href="index.html" class="u-image u-logo u-image-1">
+          <a href="#home" class="u-image u-logo u-image-1">
             <img src="images/symbol-removebg-preview.png" width="100%">
           </a>
           <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -66,7 +66,7 @@
                 </li>
                 <li class="u-nav-item"><a
                     class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                    href="about.html" style="padding: 10px 20px;">About</a>
+                    href="#about" style="padding: 10px 20px;">About</a>
                 </li>
                 <li class="u-nav-item"><a
                     class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
@@ -86,7 +86,7 @@
                         href="#home">Home</a>
                     </li>
                     <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                        href="about.html">About</a>
+                        href="#about">About</a>
                     </li>
                     <li class="u-nav-item"><a class="u-button-style u-nav-link"
                         href="#contact">Contact Me</a>
@@ -318,13 +318,15 @@
             </div>
           </div>
         </div>
-        <a href="https://github.com/jeronimomayorca" target="_blank"
-          class="u-align-center u-btn u-button-style u-palette-2-base u-btn-2 rounded mt-5">
-          Check Out the code of those projects at my GitHub!
-          <img src="images/icons8-github-30.png" alt>
-        </a>
+        <div class="container">
+          <a href="https://github.com/jeronimomayorca" target="_blank"
+            class="u-align-center u-btn u-button-style u-palette-2-base u-btn-2 rounded mt-5 ">
+            Check Out those projects at my GitHub!
+            <img src="images/icons8-github-30.png" alt>
+          </a>
+        </div>
       </section>
-      <section class="u-clearfix u-section-6" id="carousel_d4f6">
+      <section class="u-clearfix u-section-6" id="about">
         <div class="u-clearfix u-sheet u-sheet-1">
           <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
             <div class="u-layout">
@@ -335,27 +337,23 @@
                     <h2 class="u-text u-text-1">
                       <span style="font-weight: 700;">About Me</span>
                     </h2>
-                    <p class="u-text u-text-2">Pellentesque elit eget gravida
-                      cum
-                      sociis natoque penatibus et magnis. Magna
-                      fringilla urna porttitor rhoncus dolor purus non enim
-                      praesent. Magna etiam tempor orci eu lobortis
-                      elementum nibh tellus molestie. Tellus cras adipiscing
-                      enim
-                      eu turpis egestas pretium aenean.</p>
+                    <p class="u-text u-text-2">I am a passionate computer
+                      enthusiast who has been
+                      experimenting with technology since the age of 10. I
+                      delved into programming languages like C++ at 14,
+                      undertaking projects such as building a phone charger
+                      using a bicycle dynamo and creating a robotic arm using
+                      Arduino.</p>
                   </div>
                 </div>
                 <div
                   class="u-align-right u-container-style u-layout-cell u-size-30 u-layout-cell-2">
                   <div
                     class="u-container-layout u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-xl u-valign-middle-sm u-valign-middle-xs u-container-layout-2">
-                    <p class="u-text u-text-3">Viverra nibh cras pulvinar mattis
-                      nunc sed. Pulvinar mattis nunc sed blandit
-                      libero. Rhoncus aenean vel elit scelerisque. Diam donec
-                      adipiscing tristique risus nec feugiat.
-                      Facilisis leo vel fringilla est ullamcorper eget nulla
-                      facilisi. Quis eleifend quam adipiscing vitae
-                      proin sagittis.</p>
+                    <p class="u-text u-text-3">I later joined a Python-focused
+                      bootcamp at a local startup, and I am currently a
+                      dedicated student
+                      seeking further knowledge in this field.</p>
                   </div>
                 </div>
               </div>
@@ -364,19 +362,46 @@
         </div>
       </section>
 
-      <section id="contact">
-        <h1 class="display-1 text-center p-5 text-light bg-dark">
-          HERE GOES THE CONTACT INFORMATION
-        </h1>
+      <section class="u-align-center u-clearfix pb-5" id="contact">
+        <h2 class="u-text u-text-1">Contact <b>Me!</b>
+        </h2>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <a href="https://www.linkedin.com/in/mayorcajeronimo/"
+                target="_blank">
+                <img src="images/icons8-linkedin-80.png" alt="linkedin">
+              </a>
+            </div>
+            <div class="col-1">
+              <!--blank space-->
+            </div>
+            <div class="col-2">
+              <a href="https://github.com/jeronimomayorca" target="_blank">
+                <img src="images/icons8-github-80.png" alt="github">
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer"
-        id="sec-4747">
-        <div class="u-clearfix u-sheet u-sheet-1">
-          <p class="u-small-text u-text u-text-variant u-text-1">
-            All rights reserved
-          </p>
+        id="footer">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-5">
+              <p class="u-font-montserrat">
+                All rights reserved ©
+              </p>
+            </div>
+            <div class="col-7">
+              <p class="u-font-montserrat">
+                mayorcajeronimo@gmail.com
+              </p>
+            </div>
+          </div>
         </div>
+
       </footer>
 
     </body>
