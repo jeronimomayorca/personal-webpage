@@ -11,7 +11,7 @@ I hope you find that very useful for you!
 
 Take a look over my page!
 
-<a href ="https://cheerful-shortbread-b23f48.netlify.app/">
+<a href ="https://cheerful-shortbread-b23f48.netlify.app/" target ="_blank">
 mayorcajeronimo.dev
 </a>
 
