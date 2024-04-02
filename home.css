@@ -1289,13 +1289,14 @@ p {
   text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
 }
 
-.container {
+.container-item {
   color: #e5e5e5;
   font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .animation {
   height: 50px;
@@ -1378,4 +1379,8 @@ p {
 
 .shadow {
   text-shadow: 2px 2px 5px rgb(170, 170, 170);
+}
+
+.font {
+  font-size: 2rem !important;
 }
