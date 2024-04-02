@@ -21,13 +21,12 @@
   height: 422px;
   background-image: url("images/fotomia.jpg");
   background-position: 50% 50%;
-  margin: -343px auto 0;
+  margin: -320px auto 0;
 }
 
 .u-section-1 .u-text-1 {
   text-transform: uppercase;
   font-weight: 300;
-  letter-spacing: 4px;
   font-size: 3rem;
   width: 600px;
   margin: 60px auto 0;
@@ -653,15 +652,10 @@
 
 .u-section-6 .u-layout-wrap-1 {
   margin-top: 60px;
-  margin-bottom: 60px;
 }
 
 .u-section-6 .u-layout-cell-1 {
   min-height: 482px;
-}
-
-.u-section-6 .u-container-layout-1 {
-  padding: 30px;
 }
 
 .u-section-6 .u-text-1 {
@@ -687,13 +681,9 @@
   min-height: 482px;
 }
 
-.u-section-6 .u-container-layout-2 {
-  padding: 30px 30px 30px 130px;
-}
 
 .u-section-6 .u-text-3 {
   line-height: 2;
-  margin: 194px 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -1293,4 +1283,99 @@ a {
 .tiles .tile:focus .info,
 .tiles .tile:hover .info {
   transition-delay: 0.25s;
+}
+
+p {
+  text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+}
+
+.container {
+  color: #e5e5e5;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation>div>div {
+  height: 3rem;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color: #211951;
+  width: 100%;
+}
+
+.second div {
+  background-color: #836FFF;
+  width: 100%;
+}
+
+.third div {
+  background-color: #15F5BA;
+  width: 100%;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+
+  10% {
+    margin-top: 0;
+  }
+
+  20% {
+    margin-top: -5.62rem;
+  }
+
+  30% {
+    margin-top: -5.62rem;
+  }
+
+  40% {
+    margin-top: -11.24rem;
+  }
+
+  60% {
+    margin-top: -11.24rem;
+  }
+
+  70% {
+    margin-top: -5.62rem;
+  }
+
+  80% {
+    margin-top: -5.62rem;
+  }
+
+  90% {
+    margin-top: 0;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+.shadow {
+  text-shadow: 2px 2px 5px rgb(170, 170, 170);
 }
