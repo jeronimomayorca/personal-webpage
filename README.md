@@ -3,11 +3,7 @@
 
 Welcome!
 
-This repo contains my personal portfolio where I extend some information about myself and projects that I realized. 
-
-I hope you find that very useful for you!
-
-
+This repo contains my personal portfolio where I extend some information about myself and my projects. 
 
 Take a look over my page!
 
