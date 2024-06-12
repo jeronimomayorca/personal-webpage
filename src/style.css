@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #679FFF;
+  --imp-text-color: #8ABFFF;
 }
 
 .blue {
@@ -62,7 +62,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 31, 63, 1);
+  background: rgba(127, 219, 255, 1);
   border-radius: 12px;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #679FFF !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -291,7 +291,7 @@ button:focus {
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #8ABFFF !important;
 }
 
 @media (max-width: 767px) {
@@ -439,7 +439,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #8ABFFF !important;
 }
 /* --------- */
 /* Projects */
@@ -519,7 +519,7 @@ button:focus {
 .btn-primary {
   color: #fff !important;
   background-color: #623686 !important;
-  border-color: #623686 !important;
+  border-color: #8ABFFF !important;
 }
 
 .btn-primary:hover {
@@ -544,7 +544,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 80px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -555,7 +555,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #679FFF !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -574,7 +574,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(127, 219, 255, 1) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -740,4 +740,8 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.circled{
+  border-radius: 15%
 }
