@@ -51,9 +51,9 @@ function Projects() {
               imgPath={jew}
               isBlog={false}
               title="Jewelry"
-              description="Website made for administrate the users and monitorize "
+              description="Website made for a wholesale jewelry in order to register by invitation new entrepreneurs or afiliates to sell their products (rings, earrings, chains, charms, bracelets, anklets, rosaries) where the users can access to a large inventory with preferencial prices for resell the products and increase their profits"
               ghLink="https://github.com/MazorcaLlegosCorpp/jewelry"
-              demoLink="https://plant49-ai.herokuapp.com/"
+            // demoLink="https://plant49-ai.herokuapp.com/"-
             />
           </Col>
 
