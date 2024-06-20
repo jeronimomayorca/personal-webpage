@@ -42,7 +42,7 @@ function Projects() {
               title="Flexbox Practice"
               description="This is a good point to start for a new website of your digital marketing agency, divided by sections where you could promote your services, make famous your team, exhibit your portfolio, works or projects that you realized with your clients and a contact section"
               ghLink="https://github.com/jeronimomayorca/practice-flex.git"
-              demoLink="https://timely-dasik-977c95.netlify.app/"
+              demoLink="https://practiseflexbox.netlify.app/"
             />
           </Col>
 
