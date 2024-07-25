@@ -17,6 +17,7 @@ function ProjectCards(props) {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
+        <Card.Footer className="text-2xl">{ props.tools }</Card.Footer>
         {"\n"}
         {"\n"}
 

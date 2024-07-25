@@ -1,6 +1,10 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
+<<<<<<< HEAD
   <a href="https://mayorcadev.netlify.app/" target="_blank">mayorcajeronimo.dev</a>
+=======
+  <a href="https://jeronimomayorca.vercel.app" target="_blank">mayorcajeronimo.dev</a>
+>>>>>>> main
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -8,6 +12,7 @@
 
 <br/>
 
+<<<<<<< HEAD
 <center>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
@@ -44,6 +49,32 @@ This project was built using these technologies.
 
 **📖 Multi-Page Layout**
 
+=======
+<!-- <h3 align="center">
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+</h3> -->
+
+## TL;DR
+
+My personal portfolio <a href="https://jeronimomayorca.vercel.app/" target="_blank">jeronimomayorca.dev</a> which features some of my github projects as well as my resume and technical skills.<br/>
+
+This project was built using these technologies.
+
+- React.js
+- Node.js
+- Express.js
+- CSS3
+- VsCode
+- Vercel
+
+## Features
+
+**📖 Multi-Page Layout**
+
+>>>>>>> main
 **🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
 **📱 Fully Responsive**
@@ -66,9 +97,12 @@ The page will reload if you make edits.
 
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
+<<<<<<< HEAD
 
 ### Show your support
 
 Give a ⭐ if you like this website!
 
 <a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+=======
+>>>>>>> main
