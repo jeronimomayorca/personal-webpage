@@ -7,8 +7,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I'm from <span className="blue"> Manizales, </span>
-            I'm from Manizales, a medium-sized city located in the heart of the coffee axis, known for human kindness, sunsets, coffee, and university culture.
+            I'm from <span className="blue"> Manizales, </span>a medium-sized city located in the heart of the coffee axis, 
+            known for human kindness, sunsets, coffee, and university culture.
             <br />
             <br />
             I am a <span className="blue">creative</span> and <span className="blue">disruptive</span> youngster who questions established norms to find new and better ways of doing things.
