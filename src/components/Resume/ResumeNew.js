@@ -3,7 +3,6 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import cv_ingles from "../../Assets/cv_ingles.pdf";
-import cv_espanol from "../../Assets/cv_espanol.pdf"
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -38,18 +37,9 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV (english)
+            &nbsp;Download CV
           </Button>
 
-          <Button
-            variant="primary"
-            href={cv_espanol}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Descargar CV (español)
-          </Button>
         </Row>
       </Container>
     </div>
