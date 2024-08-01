@@ -5,11 +5,16 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import { FaLinkedinIn } from "react-icons/fa";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+} from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -92,13 +97,48 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/jeronimomayorca/personal-portfolio"
+                href="https://github.com/soumyajit4419/Portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillStar style={{ fontSize: "1.1em" }} />
               </Button>
+            </Nav.Item>
+
+            <Nav.Item>
+              <ul className="footer-icons">
+                <li className="social-icons">
+                  <a
+                    href="https://github.com/jeronimomayorca"
+                    style={{ color: "white" }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.linkedin.com/in/mayorcajeronimo/"
+                    style={{ color: "white" }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.instagram.com/jeronimomayorcaar/"
+                    style={{ color: "white" }}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillInstagram />
+                  </a>
+                </li>
+              </ul>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
