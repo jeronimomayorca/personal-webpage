@@ -17,10 +17,16 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
+
+
+
             <p className="home-about-body">
+              I am a fullstack developer with <b className="blue">+1</b> year of work experience, aiming to specialize in <b className="blue">backend.</b>
+              <br />
+              <br />
               During my career as a developer, I've worked with a wide range of technologies, tools, and programming languages like
               <i>
-                <b className="blue"> Python, Javascript, Angular, Django, Next.js, Tailwind CSS, Frappe. </b>
+                <b className="blue"> Python, Javascript, Angular, Django, Nest.js, Docker, Postman, Frappe </b>
               </i>
               and more
               <br />
@@ -38,6 +44,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>

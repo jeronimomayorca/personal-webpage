@@ -9,10 +9,10 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Row>
-        <Col md={5}>
+        <Col md={8}>
           <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ width: "100 %" }} />
         </Col>
-        <Col md={7}>
+        <Col md={4}>
           <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text style={{ textAlign: "right" }}>

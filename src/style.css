@@ -338,7 +338,7 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 100px;
   color: white !important;
 }
 
@@ -353,10 +353,10 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 70px !important;
+  height: 70px !important;
   text-align: center !important;
-  font-size: 1.2em !important;
+  font-size: 2em !important;
   line-height: 2em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
@@ -440,6 +440,7 @@ button:focus {
 
 .blockquote-footer {
   color: #8ABFFF !important;
+  text-align: left;
 }
 /* --------- */
 /* Projects */
@@ -746,4 +747,9 @@ button:focus {
 
 .circled{
   border-radius: 15%
+}
+
+.underlined{
+  text-decoration: underline;
+  text-decoration-color: #8ABFFF;
 }
