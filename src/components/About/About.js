@@ -5,6 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import myImg from "../../Assets/fotomia1.jpg";
+import miaCoder from "../../Assets/miacoder.jpg"
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -22,7 +23,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="blue">I'm</strong>
+              Know Who <strong className="blue">I am</strong>
             </h1>
             <Aboutcard />
           </Col>
