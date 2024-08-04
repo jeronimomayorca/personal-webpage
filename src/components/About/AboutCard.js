@@ -11,7 +11,7 @@ function AboutCard() {
             known for human kindness, sunsets, coffee, and university culture.
             <br />
             <br />
-            I am a <span className="blue">creative</span> and <span className="blue">disruptive</span> youngster who questions established norms to find new and better ways of doing things.
+            I am a <span className="blue">creative</span> and <span className="blue">disruptive</span> youngster who questions everything around me to find new and better ways of doing things.
             That's why I always look for unconventional alternatives and <span className="underlined">usually come up with great ideas!</span>
             <br />
             <br />
